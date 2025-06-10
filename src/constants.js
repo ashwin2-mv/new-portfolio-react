@@ -1,9 +1,10 @@
+import imageURL from "./assets/image.jpg";
+
 export const portfolioData = {
   profile: {
     name: "ASHWIN MV",
     title: "Frond End Developer",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+    image: imageURL,
     email: "ashwinmarangad@gmail.com",
     phone: "+91 9446392808",
     location: "india, kerala",
