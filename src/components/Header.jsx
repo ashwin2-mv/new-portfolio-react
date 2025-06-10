@@ -3,7 +3,7 @@ import { Download } from "lucide-react";
 const Header = ({ profile }) => {
   const handleDownloadResume = () => {
     const link = document.createElement("a");
-    link.href = "data:text/plain;charset=utf-8,Resume content would be here";
+    link.href = profile.resumeUrl;
     link.download = `${profile.name.replace(" ", "_")}_Resume.pdf`;
     link.click();
   };

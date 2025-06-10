@@ -1,5 +1,5 @@
 import imageURL from "./assets/image.jpg";
-
+import resume from "./assets/resume.pdf";
 export const portfolioData = {
   profile: {
     name: "ASHWIN MV",
@@ -10,6 +10,7 @@ export const portfolioData = {
     location: "india, kerala",
     github: "https://github.com/ashwin2-mv",
     linkedin: "https://www.linkedin.com/in/ashwin-marangad-3b71b2359/",
+    resumeUrl: resume,
   },
   qualifications: [
     "Bachelor of Computer Application",
